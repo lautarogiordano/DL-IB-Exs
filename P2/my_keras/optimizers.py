@@ -1,5 +1,5 @@
-from lib2to3.pgen2.token import OP
 import numpy as np
+from .losses import MSE_XOR
 
 class Optimizers():
     def __init__(self, alpha=1e-5):
@@ -12,24 +12,30 @@ class Optimizers():
         return None
 
 class SGD(Optimizers):
-    def __init__(self, batch_size, alpha=1e-5):
+    def __init__(self, alpha=1e-5):
         super().__init__(alpha)
-        self.batch_size = batch_size
 
-    def getBatch(self, X):
+    
+    def __call__(self, X, y, model, loss=MSE_XOR(), batch_size=None):
         m = X.shape[0]
-        n_batches = int(m/self.batch_size)
-        i=0
-        assert n_batches > 0, "Batch size bigger than dataset"
+        if batch_size is None or batch_size > m:
+            batch_size = m
+        n_batches = int(m/batch_size)
+        shuffle = np.random.permutation(m)
+        X = X[shuffle]
+        y = y[shuffle]
 
-        while i < n_batches:
-            yield X[i*self.batch_size:(i+1)*self.batch_size, :]
-            i+=1
+        loss_epoch = 0
+
+        for batch in range(n_batches):
+            Xb = X[batch*batch_size:(batch+1)*batch_size, :]
+            yb = y[batch*batch_size:(batch+1)*batch_size]
+
+            yb_pred = model.forward(Xb)
+
+            loss_epoch += model.backward(Xb, yb, loss)
+        
+        return np.mean(loss_epoch)
     
-    def __call__(self, X, y, model):
-        #Decidir si hacer batches
-        #model.backward(Xb, yb)   #Le paso los batch
-        pass
-    
-    def updateWeights(self, W, gradW):
-        W -= self.alpha * gradW
+    def updateRule(self, W, gradW, reg):
+        return W - self.alpha * (gradW + reg.grad(W))

@@ -1,18 +1,24 @@
 import numpy as np
-import metrics
-
+from .metrics import MSE as MSE_fun
 
 class Loss():
-    def __call__():
+    def __init__(self):
         return None
 
-    def gradient():
+    def __call__(self):
         return None
 
-class MSE(Loss):
-    def __call__(ypred, ytrue):
-        return metrics.MSE(ypred, ytrue)
+    def gradient(self):
+        return None
 
-    def gradient(ypred, ytrue):
+class MSE_XOR(Loss):
+    def __init__(self):
+        return None
+
+    def __call__(self, ypred, ytrue):
+        return MSE_fun(ypred, ytrue)
+
+    def gradient(self, ypred, ytrue):
         m = ypred.shape[0]
-        return (ypred - ytrue)/m
+        self.grad = (ypred - ytrue)/m
+        return self.grad
