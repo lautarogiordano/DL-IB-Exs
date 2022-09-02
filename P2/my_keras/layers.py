@@ -59,7 +59,6 @@ class LastLayer(Layer): #esta es basicamente mi neurona de salida,
     
     def forward(self, Sprev):
         #S es la salida de la layer, puede ser la ultima
-        #Sprev = Sprev[:,0] #Le saco la dimension trivial
         self.y = Sprev
         self.S = self.activation(Sprev)
         return self.S
@@ -107,9 +106,22 @@ class Dense(Layer):
 
 
 
-class Concat(Layer):
-    def __init__(self):
-        return None
+class ConcatInput(Layer):
+    def __init__(self, n_neurons, n1, n2):
+        self.n_neurons = n_neurons
+        self.n1 = n1
+        self.n2 = n2
+        self.n = self.n1 + self.n2
+        
 
-    def __call__(self, Layer1, Layer2):
-        pass
+    def __call__(self):
+        return self.S
+
+    def forward(self, X, S):
+        self.S = np.hstack((S, X[:, 1:]))
+        return self.S
+
+    def updateWeights(self, grad):
+        #Solo saco la parte de reinyeccion del gradiente
+        grad = grad[:,:self.n1]
+        return grad

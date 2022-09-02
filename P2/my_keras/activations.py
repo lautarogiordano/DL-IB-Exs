@@ -20,7 +20,7 @@ class sigmoid(ActivationFunc):
         return expit(z)
 
     def prime(self, z):
-        return sigmoid(z)*(1-sigmoid(z))
+        return self(z)*(1-self(z))
 
 class tanh(ActivationFunc):
     def __call__(self, z):
@@ -28,3 +28,10 @@ class tanh(ActivationFunc):
 
     def prime(self, z):
         return 1 -np.tanh(z)**2
+
+class linear(ActivationFunc):
+    def __call__(self, z):
+        return z
+
+    def prime(self, z):
+        return 1

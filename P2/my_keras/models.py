@@ -1,4 +1,4 @@
-from .layers import Input, Dense, LastLayer
+from .layers import ConcatInput, Input, Dense, LastLayer
 import numpy as np
 
 
@@ -22,7 +22,8 @@ class Network():
 
     def printLayers(self):
         for layer in range(self.n_layers):
-            print("Layer {}: {}".format(layer, type(self.layers[layer])))
+            print("Layer {}: {}, neurons: {}".format(layer, type(self.layers[layer]),
+                                                     self.layers[layer].n_neurons))
     
     def forward(self, Xb, up_to=None):
         if up_to is None:
@@ -30,9 +31,13 @@ class Network():
 
         S = None #S es el ultimo output del forward pass
         S = self.layers[0].forward(Xb)
+
         if up_to > 1:
             for layer in range(1, up_to):
-                S = self.layers[layer].forward(S)
+                if isinstance(self.layers[layer], ConcatInput):
+                    S = self.layers[layer].forward(Xb, S)
+                else:
+                    S = self.layers[layer].forward(S)
         
         return S
 
@@ -62,14 +67,21 @@ class Network():
             # 3- Le saco los indices de los bias o concat si es necesario
             # 4- El gradiente que queda se lo asigno a grad y sigo para atrás.
             # 5- current=0 la input layer solo calcula gradientes respecto a W1.
-            if isinstance(self.layers[current], LastLayer):
-                grad = self.layers[current].getGrad(grad)
-            if isinstance(self.layers[current], Dense): 
-                #Para capas densas o de input actualizo los pesos
-                grad = self.layers[current].updateWeights(grad, self.opt.updateRule)
+
             if isinstance(self.layers[current], Input):
                 #Para el gradiente del input necesito pasarle los datos de entrada
                 grad = self.layers[current].updateWeights(Xb, grad, self.opt.updateRule)
+
+            if isinstance(self.layers[current], ConcatInput):
+                grad = self.layers[current].updateWeights(grad)
+                
+            if isinstance(self.layers[current], Dense): 
+                #Para capas densas o de input actualizo los pesos
+                grad = self.layers[current].updateWeights(grad, self.opt.updateRule)
+
+            if isinstance(self.layers[current], LastLayer):
+                grad = self.layers[current].getGrad(grad)
+            
             current -= 1
 
         return loss_b
@@ -80,8 +92,10 @@ class Network():
 
         for epoch in range(epochs):
             loss_hist.append(self.opt(X, y, self, loss, batch_size))
-            if epoch % int(epochs/10) == 0:
-                print("Epoch: {}, Train loss: {}".format(epoch, loss_hist[-1]))
+            if epochs > 10 and epoch % int(epochs/10) == 0:
+                print("Epoch {}, Train loss: {:.4f}".format(epoch, loss_hist[-1]))
+        return loss_hist
+
 
 
     def predict(self, X):
