@@ -35,7 +35,7 @@ class SGD(Optimizers):
 
             loss_epoch += model.backward(Xb, yb, loss)
         
-        return np.mean(loss_epoch)
+        return np.mean(loss_epoch/n_batches)
     
     def updateRule(self, W, gradW, reg):
         return W - self.alpha * (gradW + reg.grad(W))

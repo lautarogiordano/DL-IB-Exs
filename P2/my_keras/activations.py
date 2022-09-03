@@ -13,21 +13,21 @@ class RELU(ActivationFunc):
         return np.maximum(0, z)
 
     def prime(self, z):
-        return 1*(RELU(z).astype(bool))
+        return 1*(self(z).astype(bool))
 
 class sigmoid(ActivationFunc):
     def __call__(self, z):
         return expit(z)
 
     def prime(self, z):
-        return self(z)*(1-self(z))
+        return expit(z)*(1-expit(z))
 
 class tanh(ActivationFunc):
     def __call__(self, z):
         return np.tanh(z)
 
     def prime(self, z):
-        return 1 -np.tanh(z)**2
+        return 1 -self(z)**2
 
 class linear(ActivationFunc):
     def __call__(self, z):
