@@ -86,14 +86,19 @@ class Network():
 
         return loss_b
 
-    def fit(self, X, y, loss, opt, epochs=10, batch_size=None):
+    def fit(self, X, y, loss, opt, testdata = None, epochs=10, batch_size=None):
         self.opt = opt
         loss_hist = []
 
         for epoch in range(epochs):
             loss_hist.append(self.opt(X, y, self, loss, batch_size))
             if epochs > 10 and epoch % int(epochs/10) == 0:
-                print("Epoch {}, Train loss: {:.4f}".format(epoch, loss_hist[-1]))
+                if testdata is not None:
+                    acc_test = 100*self.acc_XOR(self.predict(testdata[0]), testdata[1])
+                    print("Epoch {}, Train loss: {:.4f}\n Accuracy test: {}".format(epoch, loss_hist[-1], acc_test))
+                else:
+                    print("Epoch {}, Train loss: {:.4f}".format(epoch, loss_hist[-1]))
+        
         return loss_hist
 
 
