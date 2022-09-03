@@ -5,5 +5,5 @@ from . import metrics
 from . import models
 from . import optimizers
 from . import regularizers
-from . import models2
 from . import layers2
+from . import models2

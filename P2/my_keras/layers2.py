@@ -16,10 +16,9 @@ class BaseLayer():
 
 
 class Input(BaseLayer):
-    def __init__(self, n_features, reg):
+    def __init__(self, n_features):
         #n_features = X.shape[1]+1 (el +1 lo agregamos en model.clean(X)), m = X.shape[0]
         self.n_neurons = n_features
-        self.reg = reg
 
     
     def forward(self, X):
@@ -54,21 +53,21 @@ class Dense(WLayer):
         return self.reg(self.W)
 
     def forward(self, Sprev):
-        Sprev = np.hstack((np.ones((Sprev, 1)), Sprev))
-        self.y = np.dot(Sprev, self.W)
+        Sprevio = np.hstack((np.ones((Sprev.shape[0], 1)), Sprev))
+        self.y = np.dot(Sprevio, self.W)
         self.S = self.activation(self.y)
         return self.S
     
     def updateWeights(self, grad, Sprev, updateRule):
-        Sprev = np.hstack((np.ones((Sprev, 1)), Sprev))
+        Sprevio = np.hstack((np.ones((Sprev.shape[0], 1)), Sprev))
         grad = grad * self.activation.prime(self.y)
-        gradW = np.dot(Sprev.T, grad)     
+        gradW = np.dot(Sprevio.T, grad)     
         grad = np.dot(grad, self.W.T)
         grad = grad[:, 1:]
         self.W = updateRule(self.W, gradW, self.reg)
         return grad
 
-class ConcatInput(Layer):
+class ConcatInput(WLayer):
     def __init__(self, n_neurons, n1, n2):
         self.n_neurons = n_neurons
         self.n1 = n1
