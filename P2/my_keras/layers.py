@@ -107,8 +107,6 @@ class Dense(Layer):
         return grad
         
 
-
-
 class ConcatInput(Layer):
     def __init__(self, n_neurons, n1, n2):
         self.n_neurons = n_neurons
