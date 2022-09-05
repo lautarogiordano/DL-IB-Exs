@@ -45,14 +45,13 @@ class Network():
     def regTerm(self):
         reg = 0
         for layer in range(self.n_layers):
-            if isinstance(self.layers[layer], Dense):
+            if isinstance(self.layers[layer], (Dense, Input)):
                 reg += self.layers[layer].getReg()
         return reg
 
-    def backward(self, Xb, yb, loss):
+    def backward(self, Xb, yb_pred, yb, loss):
         current = self.n_layers - 1
-        #yb_pred es el resultado de hacer el forward con el batch
-        yb_pred = self.layers[-1]()
+
         assert yb_pred.shape[0] == yb.shape[0], "Hay un problemita con el forward pass."
         
         loss_b = loss(yb_pred, yb) + self.regTerm()

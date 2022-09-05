@@ -32,9 +32,9 @@ class MSE_img(Loss):
         return MSE_i(ypred, ytrue)
 
     def gradient(self, ypred, ytrue):
-        diff = ypred
+        diff = np.copy(ypred)
         m = ypred.shape[0]
         idx = np.arange(0, m)
-        diff[idx, ytrue] -= 1
+        diff[idx, ytrue[:, 0]] -= 1
         
         return diff/m

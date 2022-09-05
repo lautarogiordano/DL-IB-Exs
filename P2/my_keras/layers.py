@@ -24,6 +24,9 @@ class Input(BaseLayer):
     def setW(self, n_out, scale=1e-2):
         self.W = np.random.uniform(-scale, scale, size=(self.n_neurons, n_out))
 
+    def getReg(self):
+        return self.reg(self.W)
+
     def forward(self, X):
         self.S = np.dot(X, self.W)
         return self.S
