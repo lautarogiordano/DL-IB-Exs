@@ -1,5 +1,5 @@
 import numpy as np
-from scipy.special import expit
+
 
 class ActivationFunc():
     def __call__(self):
@@ -17,10 +17,10 @@ class RELU(ActivationFunc):
 
 class sigmoid(ActivationFunc):
     def __call__(self, z):
-        return expit(z)
+        return 1/(1+np.exp(-z))
 
     def prime(self, z):
-        return expit(z)*(1-expit(z))
+        return self(z)*(1-self(z))
 
 class tanh(ActivationFunc):
     def __call__(self, z):
@@ -34,4 +34,4 @@ class linear(ActivationFunc):
         return z
 
     def prime(self, z):
-        return 1
+        return np.ones_like(z)

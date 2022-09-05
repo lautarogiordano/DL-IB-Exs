@@ -69,7 +69,7 @@ class Network():
             elif isinstance(self.layers[current], Dense): 
                 #Para capas densas actualizo los pesos
                 if current == 1:
-                    last = Xb
+                    last = np.copy(Xb)
                 else:
                     last = self.layers[current-1]()
                 grad = self.layers[current].updateWeights(grad, last, self.opt.updateRule)
