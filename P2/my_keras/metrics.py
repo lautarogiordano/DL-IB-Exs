@@ -11,7 +11,7 @@ def MSE_i(yb_pred, yb):
     idx = np.arange(0, m)
     diff[idx, yb[:, 0]] -= 1
 
-    return (linalg.norm(diff)**2 / (2*m) + 1)
+    return (linalg.norm(diff)**2 / (2*m))
 
 
 def acc_img(ypred, ytrue):
