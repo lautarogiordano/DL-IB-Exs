@@ -1,2 +1,2 @@
 # DL-IB-Exs
-Deep Learning exercises sollutions
+Deep Learning exercises (my sollutions)
