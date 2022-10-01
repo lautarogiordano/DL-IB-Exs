@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.16299-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-10-01T18:45:14.013490",
+    "startedAt": "2022-10-01T18:45:12.106288",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/lautarogiordano/DL-IB-Exs.git",
+        "commit": "5764f272a009782de67fa01149d963ff9c274806"
+    },
+    "email": "lautaro.giordano@ib.edu.ar",
+    "root": "C:/Users/Lautaro/Desktop/Lautaro/asd/2021/Doctorado/Materias/Deep Learning (2020)/Practicas/Mias",
+    "host": "DESKTOP-F5SQU9B",
+    "username": "Lautaro",
+    "executable": "c:\\Users\\Lautaro\\anaconda3\\python.exe"
+}

@@ -1,0 +1,608 @@
+2022-10-01 15:53:27,473 INFO    StreamThr :4124 [internal.py:wandb_internal():88] W&B internal server running at pid: 4124, started at: 2022-10-01 15:53:27.471763
+2022-10-01 15:53:27,477 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: status
+2022-10-01 15:53:27,479 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: status
+2022-10-01 15:53:27,482 DEBUG   SenderThread:4124 [sender.py:send():301] send: header
+2022-10-01 15:53:27,482 INFO    WriterThread:4124 [datastore.py:open_for_write():75] open: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\run-3i3pdmch.wandb
+2022-10-01 15:53:27,483 DEBUG   SenderThread:4124 [sender.py:send():301] send: run
+2022-10-01 15:53:28,122 INFO    SenderThread:4124 [dir_watcher.py:__init__():216] watching files in: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files
+2022-10-01 15:53:28,122 INFO    SenderThread:4124 [sender.py:_start_run_threads():912] run started: 3i3pdmch with start time 1664650406.503239
+2022-10-01 15:53:28,124 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:53:28,124 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: check_version
+2022-10-01 15:53:28,126 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:53:28,126 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: check_version
+2022-10-01 15:53:28,292 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: run_start
+2022-10-01 15:53:28,303 DEBUG   HandlerThread:4124 [meta.py:__init__():34] meta init
+2022-10-01 15:53:28,308 DEBUG   HandlerThread:4124 [meta.py:__init__():49] meta init done
+2022-10-01 15:53:28,308 DEBUG   HandlerThread:4124 [meta.py:probe():215] probe
+2022-10-01 15:53:28,311 DEBUG   HandlerThread:4124 [meta.py:_setup_git():205] setup git
+2022-10-01 15:53:28,403 DEBUG   HandlerThread:4124 [meta.py:_setup_git():212] setup git done
+2022-10-01 15:53:28,403 DEBUG   HandlerThread:4124 [meta.py:_save_pip():53] save pip
+2022-10-01 15:53:28,408 DEBUG   HandlerThread:4124 [meta.py:_save_pip():67] save pip done
+2022-10-01 15:53:28,408 DEBUG   HandlerThread:4124 [meta.py:_save_conda():74] save conda
+2022-10-01 15:53:29,125 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:53:29,126 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\requirements.txt
+2022-10-01 15:53:29,128 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\conda-environment.yaml
+2022-10-01 15:53:53,175 DEBUG   HandlerThread:4124 [meta.py:_save_conda():84] save conda done
+2022-10-01 15:53:53,175 DEBUG   HandlerThread:4124 [meta.py:probe():253] probe done
+2022-10-01 15:53:53,179 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:53:53,179 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:53:53,191 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-01 15:53:53,309 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:53:53,484 DEBUG   SenderThread:4124 [sender.py:send():301] send: telemetry
+2022-10-01 15:53:53,488 DEBUG   SenderThread:4124 [sender.py:send():301] send: telemetry
+2022-10-01 15:53:53,488 DEBUG   SenderThread:4124 [sender.py:send():301] send: telemetry
+2022-10-01 15:53:53,488 DEBUG   SenderThread:4124 [sender.py:send():301] send: files
+2022-10-01 15:53:53,492 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file model-best.h5 with policy live
+2022-10-01 15:53:53,492 DEBUG   SenderThread:4124 [sender.py:send():301] send: telemetry
+2022-10-01 15:53:53,492 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:53:53,496 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:53:53,496 DEBUG   SenderThread:4124 [sender.py:send():301] send: files
+2022-10-01 15:53:53,496 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2022-10-01 15:53:53,496 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:53:54,165 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:53:54,165 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\conda-environment.yaml
+2022-10-01 15:53:54,166 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\output.log
+2022-10-01 15:53:54,166 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-metadata.json
+2022-10-01 15:53:54,300 INFO    Thread-103:4124 [upload_job.py:push():139] Uploaded file C:\Users\Lautaro\AppData\Local\Temp\tmpk4antnecwandb\136dtsse-wandb-metadata.json
+2022-10-01 15:53:55,408 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:53:55,409 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:53:55,410 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:53:55,412 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:53:55,414 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:53:55,415 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:53:55,418 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:53:55,419 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:53:55,422 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:53:56,168 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:53:56,168 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:53:56,904 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
+2022-10-01 15:53:56,982 INFO    Thread-104:4124 [upload_job.py:push():139] Uploaded file C:\Users\Lautaro\AppData\Local\Temp\tmpk4antnecwandb\2ahbsoui-model-best.h5
+2022-10-01 15:53:57,170 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:53:57,170 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:53:57,171 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:53:57,171 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:53:57,171 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:53:57,755 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:53:57,755 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:53:59,871 INFO    Thread-109:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\71\8fdbc1857b71227fd62b3eaf9d3936
+2022-10-01 15:53:59,884 INFO    Thread-106:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:53:59,941 INFO    Thread-108:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\14\8bf06305673b86aac87e1368e70fd3
+2022-10-01 15:54:00,218 INFO    Thread-107:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\7e\fa10a0f3557c652eb488d5d7a0edb6
+2022-10-01 15:54:01,559 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjExNjUx', 'digest': '3b1a98d3c3068aa070f8b745b5bf8dc2', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': None}, 'version': 'latest'}
+2022-10-01 15:54:01,757 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:01,759 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:01,885 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:54:01,885 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:01,885 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:01,887 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:01,887 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:01,887 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:01,891 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:02,192 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:54:02,193 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\config.yaml
+2022-10-01 15:54:02,193 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:54:04,202 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:54:04,202 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:54:04,203 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:54:04,203 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:54:04,203 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:54:04,204 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:54:04,204 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:54:04,229 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:54:04,229 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:54:05,621 INFO    Thread-111:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:54:06,504 INFO    Thread-114:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\47\75bd2fcceaf22e9919c64750afccc8
+2022-10-01 15:54:06,565 INFO    Thread-113:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\36\784f855dc5888801ac43377b54980b
+2022-10-01 15:54:06,867 INFO    Thread-112:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\8c\ff331444cd3617543fa0488ad32acc
+2022-10-01 15:54:07,268 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:07,268 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:08,232 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:54:08,699 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjExNjkz', 'digest': 'fb03aec953396841fc10ff43b9b02eb5', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjExNjUx', 'versionIndex': 0}}, 'version': 'latest'}
+2022-10-01 15:54:08,703 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:54:08,703 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:08,707 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:08,707 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:08,711 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:08,711 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:08,711 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:08,821 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:54:08,822 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:54:09,234 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:54:09,234 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:54:09,235 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:54:09,236 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:54:09,237 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:54:09,237 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:54:09,239 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:54:09,239 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:54:09,567 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:54:09,567 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:54:10,991 INFO    Thread-116:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:54:11,475 INFO    Thread-118:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\ff\1bbd0cc9c92961c9367d445df2f268
+2022-10-01 15:54:11,475 INFO    Thread-119:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\f8\c7ed1bdd9eab18903df49d87490e77
+2022-10-01 15:54:11,784 INFO    Thread-117:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\5a\b159c94c022f15c7faafc5f0497c12
+2022-10-01 15:54:12,632 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:12,632 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:13,120 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjExNzM3', 'digest': '4f4e173fd659c355dc9828a7398382c3', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjExNjkz', 'versionIndex': 1}}, 'version': 'latest'}
+2022-10-01 15:54:13,120 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:54:13,121 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:13,126 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:13,127 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:13,129 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:13,130 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:13,132 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:13,248 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:54:13,248 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:54:14,284 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:54:14,288 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:54:14,288 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:54:14,288 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:54:14,288 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:54:14,288 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:54:14,288 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:54:14,807 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:54:14,808 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:54:16,232 INFO    Thread-121:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:54:16,692 INFO    Thread-123:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\1b\51ee378b796cb465639ba42c49ac43
+2022-10-01 15:54:16,696 INFO    Thread-124:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\a7\51aac08608214058f5be023aa8d1e2
+2022-10-01 15:54:17,001 INFO    Thread-122:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\3f\3dd8997bb82b743e0ac6a252ee4613
+2022-10-01 15:54:17,945 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:17,949 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:18,328 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:54:18,378 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjExNzc3', 'digest': 'd64d74f29fdea3717a08b2c1ca297834', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjExNzM3', 'versionIndex': 2}}, 'version': 'latest'}
+2022-10-01 15:54:18,378 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:54:18,378 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:18,382 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:18,382 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:18,386 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:18,386 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:18,390 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:19,386 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:54:19,386 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:54:19,386 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables_temp\part-00000-of-00001.index
+2022-10-01 15:54:19,386 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:54:19,386 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:54:19,386 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:54:19,386 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables_temp
+2022-10-01 15:54:20,400 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:54:20,401 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:54:20,401 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:54:20,402 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:54:20,402 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:54:20,402 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:54:20,691 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:54:20,691 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:54:22,178 INFO    Thread-126:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:54:23,154 INFO    Thread-128:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\65\4725eff42bea723d1c7fa55447f02b
+2022-10-01 15:54:23,164 INFO    Thread-129:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\c4\d76d626bd8be3a982373cace713e4f
+2022-10-01 15:54:23,394 INFO    Thread-127:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\bb\7e5e14fff8f172ccbf6ae5743f7fb8
+2022-10-01 15:54:24,112 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:54:24,669 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjExODI3', 'digest': 'c143d1c551f57d710049fb7f97d89856', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjExNzc3', 'versionIndex': 3}}, 'version': 'latest'}
+2022-10-01 15:54:24,670 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:54:25,111 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:25,111 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:25,115 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:54:25,115 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:25,119 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:25,119 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:25,123 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:25,123 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:25,127 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:25,475 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:54:25,475 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:54:27,485 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:54:27,485 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:54:27,485 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:54:27,489 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:54:27,489 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:54:27,489 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:54:27,489 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:54:27,661 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:54:27,661 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:54:29,117 INFO    Thread-131:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:54:29,552 INFO    Thread-133:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\19\e4b1c110876dfc839a60bdffcce765
+2022-10-01 15:54:29,654 INFO    Thread-134:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\64\68319489dd4f50422f2ab116901858
+2022-10-01 15:54:29,858 INFO    Thread-132:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\1c\5435cab68a10087e39bc2ec201a60c
+2022-10-01 15:54:31,164 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjExODkx', 'digest': '38754d293c0c4aecc7573ba0f7eaa189', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjExODI3', 'versionIndex': 4}}, 'version': 'latest'}
+2022-10-01 15:54:31,168 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
+2022-10-01 15:54:32,100 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:32,100 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:32,104 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:54:32,104 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:32,108 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:32,108 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:32,112 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:32,112 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:32,116 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:32,554 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:54:32,554 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:54:34,565 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:54:34,566 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:54:34,566 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:54:34,567 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:54:34,567 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:54:35,615 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:54:35,616 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:54:35,617 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:54:36,107 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:54:36,107 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:54:37,498 INFO    Thread-136:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:54:37,981 INFO    Thread-139:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\6c\779c02d0a611998804d1e9ff0b8ef2
+2022-10-01 15:54:37,999 INFO    Thread-138:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\b3\2668f532188cbc0b93173f212f0588
+2022-10-01 15:54:38,297 INFO    Thread-137:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\aa\3506a28bc857a977aef84cf41a0937
+2022-10-01 15:54:39,637 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjExOTU4', 'digest': '919d88c20019079a8c19bfdb5bbb7398', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjExODkx', 'versionIndex': 5}}, 'version': 'latest'}
+2022-10-01 15:54:39,965 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:54:39,965 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:54:39,998 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:39,998 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:40,268 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:54:40,269 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:40,272 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:40,273 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:40,276 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:40,276 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:40,280 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:40,686 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:54:40,686 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:54:41,688 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:54:41,688 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:54:41,689 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:54:41,689 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:54:41,689 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:54:42,366 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:54:42,366 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:54:43,804 INFO    Thread-141:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:54:44,283 INFO    Thread-143:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\b3\102832812da71b1fc89087b215798c
+2022-10-01 15:54:44,298 INFO    Thread-144:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\96\39deb4782125d8015da930495d1970
+2022-10-01 15:54:44,572 INFO    Thread-142:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\94\7db14122ff782d090f5dfea9f721e9
+2022-10-01 15:54:45,889 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjEyMDEw', 'digest': 'c437b5b59d1b8d2139e15bb2ca9b015b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjExOTU4', 'versionIndex': 6}}, 'version': 'latest'}
+2022-10-01 15:54:45,960 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:45,961 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:45,962 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:54:45,963 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:45,968 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:45,968 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:45,971 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:45,972 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:45,974 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:46,723 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:54:46,723 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:54:47,727 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:54:47,727 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:54:47,728 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:54:47,728 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:54:47,728 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:54:47,729 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:54:47,729 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:54:48,102 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:54:48,102 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:54:49,508 INFO    Thread-146:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:54:49,963 INFO    Thread-149:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\f7\b87ba732503cda0ab72d06d975361a
+2022-10-01 15:54:49,987 INFO    Thread-148:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\60\ffe29e3e62df51dffa12cfc6ce7a99
+2022-10-01 15:54:50,310 INFO    Thread-147:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\60\f9794bca1a33436debcf233b8920ef
+2022-10-01 15:54:51,378 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:51,380 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:51,591 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjEyMDUw', 'digest': 'f5236832982ee55cde824eab7b235cf5', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjEyMDEw', 'versionIndex': 7}}, 'version': 'latest'}
+2022-10-01 15:54:51,595 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:54:51,595 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:51,599 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:51,599 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:51,603 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:51,603 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:51,603 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:51,758 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:54:51,759 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:54:53,768 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:54:53,772 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:54:53,772 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:54:53,772 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:54:53,772 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:54:53,772 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:54:53,772 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:54:54,082 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:54:54,083 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:54:55,275 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:54:55,519 INFO    Thread-151:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:54:56,001 INFO    Thread-154:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\64\c3b310b5f5add04fac924d04fd9850
+2022-10-01 15:54:56,027 INFO    Thread-153:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\b6\5c31b20d56d6f36dd739f5defc2d4f
+2022-10-01 15:54:56,277 INFO    Thread-152:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\af1a01fde39f40141cf8da75250644
+2022-10-01 15:54:57,551 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjEyMTA4', 'digest': '2593da5cebca117f428d5c6141ebb086', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjEyMDUw', 'versionIndex': 8}}, 'version': 'latest'}
+2022-10-01 15:54:57,552 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:54:58,101 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:58,104 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:54:58,104 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:54:58,106 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:58,108 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:58,109 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:58,112 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:58,112 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:54:58,115 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:54:58,793 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:54:58,794 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:54:59,795 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:54:59,797 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:54:59,797 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:54:59,798 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:54:59,798 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:54:59,798 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:54:59,798 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:55:00,303 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
+2022-10-01 15:55:00,317 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:55:00,317 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:55:01,735 INFO    Thread-156:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:55:02,184 INFO    Thread-158:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\1b\deea68a9e00a7a8ad74e0547c0046e
+2022-10-01 15:55:02,220 INFO    Thread-159:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\52\f2aec832f12ae3be1459da066a8e99
+2022-10-01 15:55:02,515 INFO    Thread-157:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\3e\d09c025bfc0da6cb32d6f87742d667
+2022-10-01 15:55:03,725 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:03,727 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:03,795 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjEyMTUz', 'digest': '5d3cf34d6eda6e0d2c509ef402e1dc3c', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjEyMTA4', 'versionIndex': 9}}, 'version': 'latest'}
+2022-10-01 15:55:03,796 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:55:03,796 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:03,799 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:03,800 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:03,803 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:03,804 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:03,806 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:03,813 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:55:03,814 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:55:05,818 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:55:05,818 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:55:05,819 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:55:05,819 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:55:05,819 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:55:05,820 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:55:05,820 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:55:06,106 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:55:06,107 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:55:07,636 INFO    Thread-161:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:55:08,106 INFO    Thread-163:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\ab\d694380fb1524dc9c9cc24f7cf80e4
+2022-10-01 15:55:08,108 INFO    Thread-164:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\22\06e2efd837916166edf3eaff4fd285
+2022-10-01 15:55:08,367 INFO    Thread-162:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\6c\8a952926106c79f855e368ff97aaf5
+2022-10-01 15:55:09,616 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjEyMjAy', 'digest': '2e84ff1e566b62bcc2a7048f577bf817', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjEyMTUz', 'versionIndex': 10}}, 'version': 'latest'}
+2022-10-01 15:55:09,980 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:09,980 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:09,982 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:55:09,983 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:09,985 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:09,986 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:09,989 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:09,990 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:09,993 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:10,831 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:55:10,832 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:55:11,837 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables_temp\part-00000-of-00001.data-00000-of-00001.tempstate9876790854197634163
+2022-10-01 15:55:11,838 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:55:11,838 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:55:11,839 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables_temp
+2022-10-01 15:55:12,843 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:55:12,844 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:55:12,852 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:55:12,854 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:55:12,854 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:55:12,855 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_moved():300] file/dir moved: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables_temp\part-00000-of-00001.data-00000-of-00001.tempstate9876790854197634163 -> c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:55:12,855 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:55:12,856 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:55:12,856 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:55:12,863 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:55:13,129 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:55:14,577 INFO    Thread-166:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:55:15,020 INFO    Thread-169:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\4b\e3009a64f49e6c38014f402cf5c6f4
+2022-10-01 15:55:15,026 INFO    Thread-168:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\14\f62da1d4342582b99e6a3f2ecc45cd
+2022-10-01 15:55:15,379 INFO    Thread-167:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\3c\6b1575489c9fb7f0f3ea511e8f071f
+2022-10-01 15:55:16,620 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:16,622 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:16,686 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjEyMjY4', 'digest': 'ce5d1f336a232b7ea927f8cec2912174', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjEyMjAy', 'versionIndex': 11}}, 'version': 'latest'}
+2022-10-01 15:55:16,686 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:55:16,687 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:16,689 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:16,689 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:16,694 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:16,694 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:16,699 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:16,864 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:55:16,865 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:55:18,872 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:55:18,873 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:55:18,873 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:55:18,874 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:55:18,874 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:55:18,874 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:55:18,875 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:55:19,292 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:55:19,292 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:55:20,735 INFO    Thread-171:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:55:21,151 INFO    Thread-173:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\b7\0fcbf4aa06449bd2b5999547f7a32c
+2022-10-01 15:55:21,186 INFO    Thread-174:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\06\be1d9b6a54c61fc679c1e8e09fbc73
+2022-10-01 15:55:21,535 INFO    Thread-172:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\b4\f3c4702a90362b4369e2bb2c241df2
+2022-10-01 15:55:22,882 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjEyMzI4', 'digest': '0f2aa5d83a4432c731a6a483fcd86fdf', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjEyMjY4', 'versionIndex': 12}}, 'version': 'latest'}
+2022-10-01 15:55:23,561 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:23,563 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:23,565 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:55:23,565 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:23,569 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:23,569 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:23,572 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:23,574 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:23,579 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:23,902 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:55:23,904 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:55:25,909 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:55:25,909 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:55:25,910 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:55:25,910 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:55:25,911 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:55:25,911 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:55:25,911 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:55:26,247 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:55:26,248 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:55:27,692 INFO    Thread-176:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:55:28,137 INFO    Thread-179:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\81\d211d440c7031ffd83f929ea2189e6
+2022-10-01 15:55:28,141 INFO    Thread-178:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\3b\95f58f486661ba2f6abb03eb21150f
+2022-10-01 15:55:28,142 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:55:28,471 INFO    Thread-177:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\8a\10529bef24205b4b60be9278b8b9c0
+2022-10-01 15:55:29,878 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjEyMzkw', 'digest': '473a69a70648779cbb933ea6ebcfa073', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjEyMzI4', 'versionIndex': 13}}, 'version': 'latest'}
+2022-10-01 15:55:29,878 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:55:30,118 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:30,119 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:30,186 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:55:30,186 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:30,189 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:30,190 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:30,193 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:30,193 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:30,198 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:30,939 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:55:30,939 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:55:31,366 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
+2022-10-01 15:55:31,941 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:55:31,942 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables_temp\part-00000-of-00001.index
+2022-10-01 15:55:31,942 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:55:31,942 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:55:31,943 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:55:31,943 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables_temp
+2022-10-01 15:55:32,690 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:55:32,691 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:55:34,879 INFO    Thread-181:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:55:35,333 INFO    Thread-184:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\48\3737e0fa5ae94053b455965778b59b
+2022-10-01 15:55:35,364 INFO    Thread-183:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\0e\eb400a71a8bbbac2ef64ea9a5585a0
+2022-10-01 15:55:35,678 INFO    Thread-182:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\bd\0421d66721003727d5d3f7a48bf48b
+2022-10-01 15:55:36,709 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:36,711 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:36,962 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:55:36,995 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjEyNDM3', 'digest': 'd7fe371b7d23392641ba32171eb47a00', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjEyMzkw', 'versionIndex': 14}}, 'version': 'latest'}
+2022-10-01 15:55:36,995 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:55:36,996 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:36,999 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:37,000 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:37,003 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:37,005 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:37,008 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:37,965 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:55:39,000 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:55:39,001 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:55:39,002 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:55:39,002 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:55:39,003 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:55:39,796 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:55:39,797 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:55:41,219 INFO    Thread-186:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:55:41,666 INFO    Thread-189:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\e8\0fd7f557f7784023f4a26cfdb31338
+2022-10-01 15:55:41,698 INFO    Thread-188:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\81\6f21ff251146750f366889ccc4802a
+2022-10-01 15:55:41,999 INFO    Thread-187:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\a3\dec68cdd4f9bbb23bb4fcf78e9dabf
+2022-10-01 15:55:43,244 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjEyNDgw', 'digest': 'c13de71a136f2bfcd4a31995e21be876', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjEyNDM3', 'versionIndex': 15}}, 'version': 'latest'}
+2022-10-01 15:55:43,288 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:43,289 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:43,291 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:55:43,292 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:43,297 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:43,298 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:43,300 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:43,301 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:43,303 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:44,012 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:55:44,013 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:55:45,015 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:55:45,016 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:55:45,192 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:55:45,193 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:55:46,019 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:55:46,020 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:55:46,020 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:55:46,020 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:55:46,021 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:55:46,022 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:55:46,022 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:55:46,039 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:55:46,040 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:55:47,394 INFO    Thread-191:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:55:47,848 INFO    Thread-193:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\22\f28578681fed1276fd66d3c39472fc
+2022-10-01 15:55:47,883 INFO    Thread-194:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\d8\1bf97935bd1fc75760fb55e383c186
+2022-10-01 15:55:48,213 INFO    Thread-192:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\fc\d5fd873fc9b8d02dbe79dd3dc5e90e
+2022-10-01 15:55:49,653 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjEyNTI4', 'digest': '3bacc65902b7a5c6b80ade2dc187b6d0', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjEyNDgw', 'versionIndex': 16}}, 'version': 'latest'}
+2022-10-01 15:55:50,336 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:50,337 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:50,340 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:55:50,340 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:50,345 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:50,346 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:50,350 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:50,353 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:50,356 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:51,055 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:55:51,055 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:55:53,058 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:55:53,059 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb
+2022-10-01 15:55:53,059 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\keras_metadata.pb
+2022-10-01 15:55:53,060 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:55:53,060 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:55:53,060 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:55:53,061 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:55:53,247 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:55:53,247 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:55:54,655 INFO    Thread-196:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:55:55,074 INFO    Thread-198:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\3a\b8a4121eb58da4a4363ca649cbd65d
+2022-10-01 15:55:55,104 INFO    Thread-199:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\4a\50a61f3e33986286327f44fa2d76a0
+2022-10-01 15:55:55,473 INFO    Thread-197:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\6e\c2a66a972da320316784616cfab636
+2022-10-01 15:55:56,834 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjEyNTgy', 'digest': 'd0af43ea97663cd047dbdf6b76054d93', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjEyNTI4', 'versionIndex': 17}}, 'version': 'latest'}
+2022-10-01 15:55:57,278 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:57,281 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-01 15:55:57,282 DEBUG   SenderThread:4124 [sender.py:send():301] send: history
+2022-10-01 15:55:57,283 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:57,286 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:57,287 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:57,290 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:57,290 DEBUG   SenderThread:4124 [sender.py:send():301] send: summary
+2022-10-01 15:55:57,295 INFO    SenderThread:4124 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-01 15:55:58,084 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\wandb-summary.json
+2022-10-01 15:55:58,085 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best.h5
+2022-10-01 15:56:00,506 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:56:00,507 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:56:01,390 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.index
+2022-10-01 15:56:01,391 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables\variables.data-00000-of-00001
+2022-10-01 15:56:01,391 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\saved_model.pb.tmp6213c7b0c2944613ab2fd86317cef72a
+2022-10-01 15:56:01,392 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\variables
+2022-10-01 15:56:01,392 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best\assets
+2022-10-01 15:56:01,393 INFO    Thread-97 :4124 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Lautaro\Desktop\Lautaro\asd\2021\Doctorado\Materias\Deep Learning (2020)\Practicas\Mias\P4\wandb\run-20221001_155320-3i3pdmch\files\model-best
+2022-10-01 15:56:02,213 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-01 15:56:02,214 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: log_artifact
+2022-10-01 15:56:03,638 INFO    Thread-201:4124 [upload_job.py:push():94] Skipped uploading C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\73\5ee9d75054577d533471077e2561fa
+2022-10-01 15:56:04,107 INFO    Thread-203:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\b7\0bc0b3af7b15bda5f18eec6e2b3b58
+2022-10-01 15:56:04,123 INFO    Thread-204:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\6a\842b07de4617de25f32ae5b47bbd45
+2022-10-01 15:56:04,472 INFO    Thread-202:4124 [upload_job.py:push():97] Uploaded file C:\Users\Lautaro\.cache\wandb\artifacts\obj\md5\82\23941503ff3c1dda5bdf748b76ac71
+2022-10-01 15:56:05,785 INFO    SenderThread:4124 [sender.py:send_request_log_artifact():1206] logged artifact model-lr_0.001__lambda_0.001__epochs_20 - {'id': 'QXJ0aWZhY3Q6MjEwNjEyNjU2', 'digest': '18cdef1c0c6706233c6c1d045332b99c', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTY3MjM0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjEwNjEyNTgy', 'versionIndex': 18}}, 'version': 'latest'}
+2022-10-01 15:56:05,785 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
+2022-10-01 15:56:15,823 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:56:15,823 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:56:31,118 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:56:31,119 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:56:33,141 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
+2022-10-01 15:56:46,432 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:56:46,432 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:57:01,738 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:57:01,738 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:57:03,738 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
+2022-10-01 15:57:17,028 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:57:17,029 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:57:32,329 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:57:32,329 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:57:34,379 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
+2022-10-01 15:57:47,897 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:57:47,897 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:58:03,205 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:58:03,205 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:58:05,308 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
+2022-10-01 15:58:18,519 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:58:18,519 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:58:33,829 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:58:33,829 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:58:35,826 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
+2022-10-01 15:58:49,129 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:58:49,129 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:59:04,447 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:59:04,447 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:59:06,413 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
+2022-10-01 15:59:19,744 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:59:19,744 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:59:35,040 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:59:35,041 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 15:59:36,710 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
