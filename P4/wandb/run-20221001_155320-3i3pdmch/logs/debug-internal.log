@@ -606,3 +606,8 @@
 2022-10-01 15:59:35,040 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
 2022-10-01 15:59:35,041 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
 2022-10-01 15:59:36,710 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
+2022-10-01 15:59:50,342 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 15:59:50,343 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 16:00:05,713 DEBUG   HandlerThread:4124 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-01 16:00:05,713 DEBUG   SenderThread:4124 [sender.py:send_request():315] send_request: stop_status
+2022-10-01 16:00:08,551 DEBUG   SenderThread:4124 [sender.py:send():301] send: stats
